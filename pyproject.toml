@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gqs"
+version = "0.1.0"
+description = "Geometric Quantum States (GQS) utilities for open/many-body quantum dynamics and Wasserstein distances."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [
+  {name = "Komal Sah"}
+]
+dependencies = [
+  "numpy",
+  "scipy",
+  "matplotlib",
+  "tqdm",
+  "POT",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest",
+  "pytest-cov",
+]
+
+[tool.setuptools]
+packages = ["gqs"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
