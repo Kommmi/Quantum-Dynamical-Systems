@@ -72,20 +72,26 @@ The resulting distance dynamics quantify **geometric sensitivity of local quantu
 
 ---
 
-## 📁 Repository Structure
+## Install
 
-```text
-.
-├── notebooks/              # Jupyter notebooks (theory + simulations)
-│   ├── theory/             # GQS formalism, distance definitions
-│   ├── simulations/        # Kicked top / spin-chain dynamics
-│   └── figures/            # Reproducible plots and schematics
-│
-├── src/                    # Core Python modules
-│   ├── dynamics.py         # Hamiltonians and time evolution
-│   ├── gqs.py              # Geometric quantum state construction
-│   ├── distances.py        # Wasserstein, Bures, FS distances
-│   └── utils.py            # Helpers and numerical tools
-│
-├── dat
+### Option A: editable install (recommended for development)
+```bash
+pip install -e .
+```
+
+### Option B: install pinned dependencies only
+```bash
+pip install -r requirements.txt
+```
+
+## Package layout
+- `gqs/operators.py`: spin operators
+- `gqs/states.py`: initial states + reduced/conditional states
+- `gqs/dynamics.py`: kicked-top Hamiltonian + Floquet operator
+- `gqs/gqs.py`: GQS / Bloch utilities + visualizations
+- `gqs/distances.py`: Fubini–Study + Wasserstein (OT) distances
+- `gqs/entropy.py`: entropy/purity utilities
+- `gqs/perturbations.py`: (theta,phi) perturbation helpers
+- `gqs/gamma.py`: Gamma / separation-rate computations
+- `gqs/plotting.py`: plotting helpers
 
