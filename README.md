@@ -21,7 +21,6 @@ Distances between these ensembles are quantified using the **Wasserstein (optima
 
 > **How does a small difference in global coherent preparation manifest at the level of locally accessible quantum states under interacting many-body dynamics?**
 
-More concretely:
 - Do interactions with the environment erase information about the initial preparation?
 - Do local geometric differences persist?
 - Or can local sensitivity be amplified, even when global distinguishability is conserved?
