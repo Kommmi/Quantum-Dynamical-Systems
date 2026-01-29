@@ -17,7 +17,7 @@ Distances between these ensembles are quantified using the **Wasserstein (optima
 
 ---
 
-## 🔬 Scientific Question
+## 🔬 Main Question
 
 > **How does a small difference in global coherent preparation manifest at the level of locally accessible quantum states under interacting many-body dynamics?**
 
