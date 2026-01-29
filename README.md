@@ -2,9 +2,7 @@
 
 This repository implements a **geometric, ensemble-based framework** for studying how small differences in global quantum preparations manifest at the level of **local, environment-conditioned quantum states** in interacting many-body systems.
 
-The core goal is to understand **what survives reduction**:  
-while global quantum states evolve unitarily and remain equally distinguishable, their **local subsystems do not**.  
-This project tracks how local quantum geometry is **transported, contracted, or amplified** under interacting dynamics.
+How does a small difference in global coherent preparation manifest at the level of local geometric quantum states under interacting many-body dynamics?  Does interactions with the environment erase information about initial preparation, preserve it, or amplify it at the level of locally accessible quantum-state ensembles.
 
 ---
 
